@@ -2,21 +2,21 @@
 
 # Copy priv_validator_state.json to the .oraid directory:
 # Define file paths
-echo "Copy the priv_validato_state.json to the .oraid directory..."
+echo "Copy the priv_validator_state.json to the .oraid directory..."
 JSON_FILE="$HOME/orai/orai/.oraid/data/priv_validator_state.json"
 ORAID_DIR="$HOME/orai/orai/.oraid/"
 
 # Copy the priv_validator_state.json file to the .oraid directory
 cp "$JSON_FILE" "$ORAID_DIR"
 
-echo "File moved successfully to .oraid."
+echo "File moved successfully to .oraid"
 
 # Snapshot Download
-echo "Snapshot Download"
+echo "Next Step --> Download Snapshot"
 
 # Function to download the latest snapshot
 download_latest_snapshot() {
-    echo "Downloading the latest snapshot..."
+    echo "Downloading the BlockVal latest Snapshot..."
     # Download the latest snapshot from BlockVal
     curl -L https://snap.blockval.io/oraichain/oraichain_latest.tar.lz4 -o "$HOME/oraichain_latest.tar.lz4"
 }
@@ -33,8 +33,8 @@ download_specific_snapshot() {
 
 # Ask user for download option with timeout
 echo "Choose download option:"
-echo "1. Download the BLOCKVAL latest snapshot"
-echo "2. Download a NYSA-NETWORK snapshot - Please provide the latest snapshot number"
+echo "1. Download the BLOCKVAL latest Snapshot"
+echo "2. Download a NYSA-NETWORK Snapshot - Recommended"
 echo "Please enter the option 1 or 2"
 echo "Waiting for input... (Timeout in 1 minute)"
 
@@ -66,7 +66,7 @@ echo "Snapshot downloaded successfully."
 
 
 # Stop the service
-echo "Stopping the service..."
+echo "Stopping the Oraid service..."
 sudo systemctl stop oraid
 
 # Remove the folders
@@ -90,7 +90,7 @@ echo "New Snapshot Folders unzipped successfully."
 
 # Remove new priv_validator_state.json and add the old one
 # Define file paths
-echo "Removing the new priv_validato_state.json and add the old one..."
+echo "Removing the new priv_validator_state.json and add the old one..."
 OLD_FILE="$HOME/orai/orai/.oraid/priv_validator_state.json"
 NEW_DIR="$HOME/orai/orai/.oraid/data/"
 NEW_FILE="$NEW_DIR/priv_validator_state.json"
@@ -105,11 +105,11 @@ fi
 # Copy the priv_validator_state.json file to the data directory
 cp "$OLD_FILE" "$NEW_DIR"
 
-echo "File moved successfully to $NEW_DIR."
+echo "File moved successfully to $NEW_DIR"
 
 
-# Start the service
-echo "Starting the service..."
+# Start the Oraid service
+echo "Starting the Oraid service..."
 sudo systemctl start oraid
 
 # Delete remaining tar.lz4 files
@@ -118,7 +118,5 @@ sudo rm -rf $HOME/*.tar.lz4
 
 echo "Script execution completed...."
 
-echo "Developed By Crypto-Genesis.... Happy Validating :)"
-
-
+echo "Script developed By Crypto-Genesis.... Happy Validating :)"
 
