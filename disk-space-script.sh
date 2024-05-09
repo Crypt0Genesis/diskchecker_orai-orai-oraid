@@ -34,6 +34,7 @@ download_specific_snapshot() {
 echo "Choose download option:"
 echo "1. Download the BLOCKVAL latest snapshot"
 echo "2. Download a NYSA-NETWORK snapshot - Please provide the latest snapshot number"
+echo "Please enter the option 1 or 2"
 echo "Waiting for input... (Timeout in 2 minutes)"
 
 if read -t 60 option; then
@@ -72,7 +73,6 @@ echo "Removing old Data and Wasm folders..."
 sudo rm -rf $HOME/orai/orai/.oraid/data $HOME/orai/orai/.oraid/wasm
 
 echo "Removed old Data and Wasm folders..."
-
 
 # Unzip the folders
 echo "Unzipping the new Snapshot Folders..."
