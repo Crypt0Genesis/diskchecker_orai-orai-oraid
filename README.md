@@ -19,7 +19,7 @@ Installation Instructions:
 
 1. **Download the Files:** Retrieve the necessary files onto your server.
    ```
-   wget https://github.com/Crypt0Genesis/orai-orai-.oraid.git
+   sudo git clone https://github.com/Crypt0Genesis/orai-orai-.oraid.git
    ```
 2. **Permissions:** Set executable permissions for the `disk-space-script.sh` file using:
    ```
