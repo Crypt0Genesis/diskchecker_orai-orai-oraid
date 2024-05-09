@@ -20,5 +20,5 @@ crontab -e
 
 Add the following lines
 
-# Check disk space every 12 hours
+#Check disk space every 6 hours
 0 */6 * * * /$HOME/check_disk_script.sh
