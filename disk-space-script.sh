@@ -117,7 +117,7 @@ sudo rm -rf $HOME/*.tar.lz4
 
 echo "Script execution completed...."
 
-echo "Develop By Crypto-Genesis.... Happy Validating :)"
+echo "Developed By Crypto-Genesis.... Happy Validating :)"
 
 
 
