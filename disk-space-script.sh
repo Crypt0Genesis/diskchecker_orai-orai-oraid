@@ -36,7 +36,7 @@ echo "1. Download the BLOCKVAL latest snapshot"
 echo "2. Download a NYSA-NETWORK snapshot - Please provide the latest snapshot number"
 echo "Waiting for input... (Timeout in 2 minutes)"
 
-if read -t 120 option; then
+if read -t 60 option; then
     # Perform the selected action
     case $option in
         1)
