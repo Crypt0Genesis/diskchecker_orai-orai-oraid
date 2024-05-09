@@ -23,6 +23,7 @@ download_latest_snapshot() {
 
 # Function to download a specific snapshot
 download_specific_snapshot() {
+    echo "Visit https://snapshots.nysa.network/Oraichain/#Oraichain/"
     echo "Please enter the snapshot number:"
     read snapshot_number
     # Replace "xxxx" in the URL with the provided snapshot number
@@ -35,7 +36,7 @@ echo "Choose download option:"
 echo "1. Download the BLOCKVAL latest snapshot"
 echo "2. Download a NYSA-NETWORK snapshot - Please provide the latest snapshot number"
 echo "Please enter the option 1 or 2"
-echo "Waiting for input... (Timeout in 2 minutes)"
+echo "Waiting for input... (Timeout in 1 minute)"
 
 if read -t 60 option; then
     # Perform the selected action
