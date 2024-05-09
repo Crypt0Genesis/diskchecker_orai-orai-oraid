@@ -1,4 +1,3 @@
-#disk-space-script.sh
 #!/bin/bash
 
 # Copy priv_validator_state.json to the .oraid directory:
