@@ -7,7 +7,7 @@ disk_usage=$(df -h | grep '/dev/' | awk '{ print $5 }' | sed 's/%//')
 if [ $disk_usage -ge 80 ]; then
 	echo "Disk space is at $disk_usage%. Running script..."
 	# Add your script logic here
-	/$HOME/disk-space-script.sh
+	/$HOME/diskchecker_orai-orai-oraid/disk-space-script.sh
 else
 	echo "Disk space is below 80%. No action required."
 fi
