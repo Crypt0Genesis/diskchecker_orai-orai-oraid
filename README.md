@@ -1,4 +1,4 @@
-# Orai Disk Checker
+# Orai Server Disk Checker
 
 The primary goal in developing this script is to prevent server downtime due to disk space reaching capacity, especially with the increased volume of blockchain data comparisons against historical data.
 
@@ -42,3 +42,7 @@ Installation Instructions:
    ```
 
 I've thoroughly tested the script and it operates flawlessly. However, I welcome your feedback and suggestions for further enhancements. Feel free to reach out with any concerns or improvement ideas. Thanks!
+
+Crypto-Genesis Validator:
+https://scan.orai.io/validators/oraivaloper1r8zzyp7ffnuzlqv5hp75yhqrxf4g9fad532p7h
+https://t.me/crypt0genesis
