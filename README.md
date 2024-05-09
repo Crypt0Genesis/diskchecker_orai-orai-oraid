@@ -3,16 +3,17 @@
 STEP:1
 disk-space-script.sh file:
 
-Run the following command to make executable file:
+##Run the following command to make executable file:
+
 sudo chmod +x disk-space-script.sh
 
 STEP:2
-Script to check the disk space every 6 hours:
+##Script to check the disk space every 6 hours:
 
 sudo chmod +x check_disk_script.sh
 
 STEP:3
-Create a Crontab Scheduler:
+##Create a Crontab Scheduler:
 
 Runt the following command on your server and follow theinstructions:
 
