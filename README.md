@@ -18,7 +18,9 @@ Here's a breakdown of the script's functionality:
 Installation Instructions:
 
 1. **Download the Files:** Retrieve the necessary files onto your server.
-
+   ```
+   wget https://github.com/Crypt0Genesis/orai-orai-.oraid.git
+   ```
 2. **Permissions:** Set executable permissions for the `disk-space-script.sh` file using:
    ```
    sudo chmod +x disk-space-script.sh
@@ -33,7 +35,7 @@ Installation Instructions:
    ```
    crontab -e
    ```
-   Then, add the following lines to schedule disk space checks every 6 hours:
+ 5.  Then, add the following lines to schedule disk space checks every 6 hours:
    ```
    # Check disk space every 6 hours
    0 */6 * * * /$HOME/check_disk_script.sh
