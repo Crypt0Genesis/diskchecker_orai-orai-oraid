@@ -10,7 +10,7 @@ This script operates on the principle of Zero Touch Provisioning (ZTP), automati
 
 2) Sudo Permissions with No Password Prompt:
 To disable the password prompt for sudo privileges, follow these steps:
-
+```
 Open the sudoers file using the command: 
 
 sudo visudo
@@ -22,7 +22,7 @@ Add or replace the following line to the file:
 %sudo   ALL=(ALL:ALL) NOPASSWD:ALL
 
 Save and exit the file. "Ctrl + x -> Y and Enter"
-
+```
 3) Systemd Service Setup and Enablement:
 Ensure that the systemd service is set up and enabled for proper functionality.
 
@@ -111,7 +111,7 @@ Disk space is below 80%. No action required.
 
 
 **If Disk Space reach at 80% or Above**
-
+```
 cryptogenesis@Orai-Node:~/diskchecker_orai-orai-oraid$ ./check_disk_script.sh
 Disk space is at 80%. Running script...
 Copy the priv_validator_state.json to the .oraid directory...
@@ -145,7 +145,7 @@ Starting the oraid service...
 Deleting remaining tar.lz4 files...
 Script execution completed....
 Script Developed By Crypto-Genesis.... Happy Validating :)
-
+```
 
 **Additional Information:**
 
