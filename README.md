@@ -15,7 +15,8 @@ Open the sudoers file using the command:
 
 sudo visudo
 
-Add or replace the following line to the file: 
+Add or replace the following line to the file:
+
 #Allow members of group sudo to execute any command
 %sudo   ALL=(ALL:ALL) NOPASSWD:ALL
 
