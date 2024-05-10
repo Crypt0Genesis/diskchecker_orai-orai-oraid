@@ -27,7 +27,7 @@ Save and exit the file. "Ctrl + x -> Y and Enter"
 Ensure that the systemd service is set up and enabled for proper functionality.
 
 
-*Note: Kindly be aware that the validator setup utilizes the oraid binary built from source in a non-Docker environment.*
+**Note: Kindly be aware that the validator setup utilizes the oraid binary built from source in a non-Docker environment.**
 
 
 Here's a breakdown of the script's functionality:
