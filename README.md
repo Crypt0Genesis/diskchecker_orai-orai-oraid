@@ -17,7 +17,8 @@ sudo visudo
 
 Add or replace the following line to the file:
 
-#Allow members of group sudo to execute any command
+#Allow members of group sudo to execute any command#
+
 %sudo   ALL=(ALL:ALL) NOPASSWD:ALL
 
 Save and exit the file. "Ctrl + x -> Y and Enter"
