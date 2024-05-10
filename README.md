@@ -68,6 +68,7 @@ Save and exit the file. "Ctrl + x -> Y and Enter"
 
 **Setup Example**
 
+```
 cryptogenesis@Orai-Node:~$ cd $HOME
 cryptogenesis@Orai-Node:~$ sudo git clone https://github.com/Crypt0Genesis/diskchecker_orai-orai-oraid.git
 Cloning into 'diskchecker_orai-orai-oraid'...
@@ -106,7 +107,7 @@ Choose 1-2 [1]: 1
 Now Run the Script Manually:
 orainode@Orai-Node:~/diskchecker_orai-orai-oraid$ ./check_disk_script.sh
 Disk space is below 80%. No action required.
-
+```
 
 
 **If Disk Space reach at 80% or Above**
