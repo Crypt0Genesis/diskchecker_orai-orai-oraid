@@ -10,9 +10,9 @@ This script operates on the principle of Zero Touch Provisioning (ZTP), automati
 
 2) Sudo Permissions with No Password Prompt:
 To disable the password prompt for sudo privileges, follow these steps:
-```
-Open the sudoers file using the command: 
 
+Open the sudoers file using the command: 
+```
 sudo visudo
 
 Add or replace the following line to the file:
