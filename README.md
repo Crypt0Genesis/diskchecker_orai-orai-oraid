@@ -155,20 +155,21 @@ Efforts are underway to swiftly deploy our own Orai validator dashboard, Sentry 
 
 1. BlockVal Usage:
    By default, Blockval's snapshot feature selects the latest available snapshot. However, please note that sometimes the snapshot size can range from 40-50GB.
+   The script will automatically opt for Blockval's image, as the link directs to the latest snapshot. 
 
 2. NysaNetwork Usage (Recommended):
    The snapshot size from NysaNetwork is approximately 9GB. However, the image name varies each time.
-
-The script will automatically opt for Blockval's image, as the link directs to the latest snapshot. 
+ 
 
 If you opt to use the script manually, you'll have the choice to select your preferred snapshot image. Upon manual execution, the script will present you with Option 1 and Option 2. If no option is selected, the script will wait for 1 minute before proceeding to download the default snapshot from BlockVal.
 If you run the script manually and choose Option 2 to download the Nysa snapshot, the script will prompt you to enter the latest image reference. You can obtain this reference from the Nysa Network website.
 
 
 **NOTE**
+```
 I've thoroughly tested the script and it operates flawlessly. However, I welcome your feedback and suggestions for further enhancements. Feel free to reach out with any concerns or improvement ideas. Thanks!
 
 Crypto-Genesis Validator:
 https://t.me/crypt0genesis
 https://scan.orai.io/validators/oraivaloper1r8zzyp7ffnuzlqv5hp75yhqrxf4g9fad532p7h
-
+```
